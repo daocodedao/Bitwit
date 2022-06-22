@@ -21,7 +21,7 @@ const Hero: React.FC<HeroProps> = ({ collectionURL }) => {
           }}
           className="mb-8 text-7xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-orange-200 to-purple-500 sm:text-9xl"
         >
-          Minted <br />
+          Connected <br />
           with <Heart className="inline text-red-700" />
         </motion.h1>
         {collectionURL ? (
@@ -56,15 +56,15 @@ const Hero: React.FC<HeroProps> = ({ collectionURL }) => {
               Coming Soon.
             </p>
             <p className="text-xl font-bold text-zinc-800">
-              Follow us on twitter{' '}
+              Relation is NFT, Testnet {' '}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://twitter.com/basicdogenft"
+                href="https://testnets.opensea.io/collection/fxbox-nft-collection-v2"
               >
-                @basicdogenft
+                MARKETPLACE
               </a>{' '}
-              for updates!
+              is updated!
             </p>
           </div>
         )}

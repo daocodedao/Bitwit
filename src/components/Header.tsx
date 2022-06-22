@@ -9,12 +9,12 @@ const Header = () => {
           <img
             className="block mr-4 w-16 h-16 rounded-full"
             src={Logo}
-            alt="Basic Doge Logo"
+            alt="Bitwit Logo"
             width="1500"
             height="1500"
           />
           <span className="text-xl font-bold tracking-tighter text-red-50 uppercase md:text-3xl">
-            Basic Doge
+            Bitwit
           </span>
         </div>
         <WalletConnect />
